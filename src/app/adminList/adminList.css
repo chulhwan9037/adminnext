@@ -1,0 +1,40 @@
+/* AdminList.css */
+
+.admin-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.admin-table-head {
+    background-color: #87CEEB;
+    color: white;
+}
+
+/* Additional styling can be added as needed */
+
+
+
+
+/* ModalBox.css */
+
+.modal-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 24px;
+    padding: 16px;
+}
+
+.modal-submit-button {
+    margin-top: 16px;
+}
+
+/* Additional styling can be added as needed */
+
+
+
