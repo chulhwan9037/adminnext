@@ -35,7 +35,7 @@ function TradeList({tradeList}){
     return(
       <Container>
       <Typography variant="h4" gutterBottom>
-        게스트 리스트
+        중고거래
       </Typography>
       <Grid container spacing={3}>
         {tradeList && tradeList.map((k) => (

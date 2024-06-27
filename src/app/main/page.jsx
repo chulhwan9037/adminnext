@@ -10,7 +10,9 @@ import AdminList from "../adminList/page";
 import { observer } from "mobx-react-lite";
 import { MenuContext } from "@/stores/StoreContext";
 import GuestDetail from "../guestDetail/page";
-
+import TradeList from "../tradeList/page";
+import PublicT from "../publicT/page";
+import DetailTrade from "../detailTrade/page";
 
 function Main(){
 
@@ -45,9 +47,11 @@ function Main(){
           case "guestdetail":
             return <GuestDetail guestDetail={menuStore.guestDetail} />
           case "tradelist":
-            return <GuestDetail tradeList={menuStore.tradeList} />
+            return <TradeList tradeList={menuStore.tradeList} />
+          case "detailtrade":
+            return <DetailTrade detailTrade={menuStore.detailTrade} />
           case "public":
-            return <GuestDetail guestDetail={menuStore.guestDetail} />
+            return <PublicT guestDetail={menuStore.guestDetail} />
           default:
             return <UserList />
        }

@@ -55,6 +55,7 @@ function Sidebar(){
             }
         }else if(menu === "tradelist"){
             try {
+                console.log("여기는올까?")
                 const response = await axios.get("/api/tradeboard",{
                     headers :{
                         Authorization:  `Bearer ${menuStore.token}`

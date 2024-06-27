@@ -1,6 +1,6 @@
 
 
-export default function DetailTrade(){
+export default function DetailTrade({detailTrade}){
     const {
         idx,
         id,
@@ -10,7 +10,7 @@ export default function DetailTrade(){
         image_size,
         image_format,
         created_at
-    } = guestDetail;
+    } = detailTrade;
     return(
         <div className="guest-detail-container">
             <div className="info-item">

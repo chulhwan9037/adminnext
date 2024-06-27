@@ -85,6 +85,9 @@ class MenuStore{
     setTradeList(tradeList){
         this.tradeList = tradeList;
     }
+    setDetailTrade(detailTrade){
+        this.detailTrade = detailTrade;
+    }
     setPublicInfo(detailTrade){
         this.detailTrade = detailTrade;
     }
